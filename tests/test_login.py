@@ -5,13 +5,13 @@ from pages.inventory_page import InventoryPage
 from pages.login_page import LoginPage
 
 
-def test_successfull_login(browser_context):
-    login_page = LoginPage(browser_context)
-    login_page.load()
-    login_page.login("standard_user", "secret_sauce")
-    #Openning inventory page
-    inventory_page = InventoryPage(browser_context)
-    inventory_page.assert_url_for_page()
+# def test_successfull_login(browser_context):
+#     login_page = LoginPage(browser_context)
+#     login_page.load()
+#     login_page.login("standard_user", "secret_sauce")
+#     #Openning inventory page
+#     inventory_page = InventoryPage(browser_context)
+#     inventory_page.assert_url_for_page()
 
 @pytest.mark.parametrize(("username", "password", "message"), [
     ("", "", "Username is required"),

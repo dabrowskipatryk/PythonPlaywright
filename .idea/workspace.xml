@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9b70600-40fd-4af8-94ea-74f9c29cea4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SzkoleniePythonPlaywright.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/browser_context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/cart_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkout_complete_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkout_step_one_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkout_step_two_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/inventory_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_full_checkout_flow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_inventory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_recorded.py" afterDir="false" />
+    <list default="true" id="c9b70600-40fd-4af8-94ea-74f9c29cea4f" name="Changes" comment="Comment out test_successfull_login scenario">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +20,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-branch/comment-out-tests" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dabrowskipatryk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dabrowskipatryk/PythonPlaywrightCourse.git",
+    "accountId": "fd0a0646-fd10-4827-9e4b-c996dfb2053f"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -160,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_inventory.test_inventory_sorting" />
-        <item itemvalue="Python tests.Python tests for test_full_checkout_flow.test_e2e_checkout_flow" />
-        <item itemvalue="Python tests.Python tests for test_inventory.test_inventory_item_count" />
-        <item itemvalue="Python tests.Python tests for test_login.test_invalid_login" />
         <item itemvalue="Python tests.Python tests for test_login.test_successfull_login" />
+        <item itemvalue="Python tests.Python tests for test_login.test_invalid_login" />
+        <item itemvalue="Python tests.Python tests for test_inventory.test_inventory_sorting" />
+        <item itemvalue="Python tests.Python tests for test_inventory.test_inventory_item_count" />
+        <item itemvalue="Python tests.Python tests for test_full_checkout_flow.test_e2e_checkout_flow" />
       </list>
     </recent_temporary>
   </component>
@@ -184,12 +182,45 @@
       <option name="presentableId" value="Default" />
       <updated>1746877776236</updated>
       <workItem from="1746877777354" duration="8010000" />
-      <workItem from="1746941995199" duration="20451000" />
+      <workItem from="1746941995199" duration="22538000" />
     </task>
+    <task id="LOCAL-00001" summary="git initial commit with tests">
+      <option name="closed" value="true" />
+      <created>1746965675261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746965675261</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Comment out test_successfull_login scenario">
+      <option name="closed" value="true" />
+      <created>1746966640918</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746966640918</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git initial commit with tests" />
+    <MESSAGE value="Comment out test_successfull_login scenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment out test_successfull_login scenario" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SzkoleniePythonPlaywright$.coverage" NAME=" Coverage Results" MODIFIED="1746961295337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
